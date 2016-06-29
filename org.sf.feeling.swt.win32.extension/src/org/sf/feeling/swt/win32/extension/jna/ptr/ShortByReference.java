@@ -1,0 +1,34 @@
+/*******************************************************************************
+ * Copyright (c) 2011 cnfree.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *  cnfree  - initial API and implementation
+ *******************************************************************************/
+package org.sf.feeling.swt.win32.extension.jna.ptr;
+
+import org.sf.feeling.swt.win32.extension.jna.exception.NativeException;
+
+public class ShortByReference extends ByReference {
+    
+    public ShortByReference() throws NativeException{
+        this((short)0);
+    }
+    
+    public ShortByReference(short value) throws NativeException {
+        super(2);
+        setValue(value);
+    }
+    
+    public void setValue(short value) throws NativeException {
+        getPointer().setShortAt(0, value);
+    }
+    
+    public short getValue() throws NativeException {
+        return getPointer().getAsShort(0);
+    }
+    
+}

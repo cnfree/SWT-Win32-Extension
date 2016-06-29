@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: org.eclipse.swt.win32.jar org.eclipse.ui.forms.jar org.eclipse.jface.jar 
+ org.sf.feeling.swt.win32.extension.jar org.eclipse.equinox.common.jar org.eclipse.core.commands.jar
+Main-Class: org.sf.feeling.swt.win32.extension.example.Example
+

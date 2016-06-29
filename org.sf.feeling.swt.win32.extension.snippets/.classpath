@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="icons"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.swt.win32.jar"/>
+	<classpathentry kind="lib" path="lib/org.sf.feeling.swt.win32.extension.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.commands.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ui.forms.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
