@@ -15,3 +15,18 @@ It is a software development kit enabling you to work with native code from Java
   * Windows Session: managing system session. User can logoff, shutdown, reboot computer.
   * Ole Control: providing some ole control wrappers, such as flash.
   * __Specially, you can get a lot of functions via SWT, because SWT Win32 Extension extends SWT.__
+
+###Snapshots
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/SystemInfo.png)
+ 
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/ShellExplorer.png)
+ 
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/SystemHook.png)
+ 
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/Windows.png)
+ 
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/Process.png)
+  
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/OleControl.png)
+ 
+ ![](https://github.com/cnfree/SWT-Win32-Extension/blob/master/snapshots/NativeControl.png)
