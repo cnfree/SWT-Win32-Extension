@@ -1,4 +1,4 @@
-# SWT-Win32-Extension
+# SWT Win32 Extension
 
 ###SWT Win32 Extension extends the Eclipse library SWT.
 
